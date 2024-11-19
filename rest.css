@@ -1,0 +1,264 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 70px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0;
+    padding: 20px;
+    background-attachment: scroll;
+}
+
+.navbar .title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.navbar .word1 {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar .word2 {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 50px;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    color: white;
+}
+
+.container h1 {
+    color: white;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.container p {
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rounded-image {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button.active {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.active:hover {
+    background-color: #0056b3;
+}
+
+.rounded-image {
+    border-radius: 15px;
+    /* Adjust the radius as needed */
+    /* You can add more styling here if needed */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-my {
+    text-align: center;
+    margin: 20px;
+}
+
+.container-my h2 {
+    color: white;
+    font-family: cursive;
+}
+
+.container-my p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between cards */
+    gap: 0px;
+    /* Gap between cards */
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-family: cursive;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+/* Animated glowing effect */
+
+.container-your {
+    padding: 30px 120px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 10px solid transparent;
+    background-repeat: no-repeat;
+    padding: 5px, 5px, 15px;
+}
+
+.yourdiv {
+    border: 1px solid white;
+    margin: 100px 100px 50px 15px;
+    /* Decreased margins */
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    /* Decreased font size */
+    padding: 5px 5px 5px 15px;
+    /* Decreased padding */
+}
+
+.checked {
+    color: orange;
+}
+
+
+/* Container for the social and footer sections */
+
+.social-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.follow-section {
+    margin-bottom: 20px;
+}
+
+.follow-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    /* Adjust size as needed */
+    color: white;
+    /* Default color for social icons */
+    text-decoration: none;
+    font-style: italic;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.875em;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
